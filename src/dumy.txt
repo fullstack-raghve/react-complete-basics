@@ -1,0 +1,38 @@
+import logo from './logo.svg';
+import './App.css';
+import { Contact } from './components/Contact';
+import Faq from './components/Faq';
+
+let user1 = <h3>Test User of red color</h3>
+let user2 = <h3 className = "blue">Test User of blue colorr</h3>
+
+let name = 'Rahulji'
+const ele = <h1>Hello {name}</h1>
+ let about = 'About us'
+const About = () =>{
+  return(
+    <h4>I am from {about}</h4>
+  )
+}
+
+
+///JSX const myelement = <input type="text" />;
+
+
+
+function App() {
+  return (
+    <div>
+    <p>Hello React {2*5}, </p>
+    {name}
+    {ele}
+    {user1}
+    {user2}
+    <About/>
+    <Contact/>
+   <Faq/>
+    </div>
+  );
+}
+
+export default App;

@@ -1,0 +1,83 @@
+1>>> React (sometimes called React.js or ReactJS) is a 
+JavaScript 
+library for building a fast and interactive
+ user interface. It was originated at Facebook 
+ in 2011 and allow developers to create sizeable
+  web applications or complex UIs by 
+  integrating a small and isolated snippet of code.
+
+ 2>>> React.JS History
+Current version of React.JS is V16.8.6 (March 2019).
+
+Initial Release to the Public (V0.3.0) was in July 2013.
+
+React.JS was first used in 2011 for Facebook's Newsfeed feature.
+
+Facebook Software Engineer, Jordan Walke, created it.
+
+The create-react-app version 2.0 package was released in October 2018.
+
+Create-react-app version 2.0 supports Babel 7, webpack 4, and Jest23.
+
+
+3>>>Installation
+  React Project setup - node -v  , npm -v  >5.2.0
+1.  npx create-react-app myapp
+ 2. cd myapp
+3.  npm start
+4.  npm run build  
+
+4>>Why React is so fast - JSX & Virtual DOM
+What is JSX?
+JSX stands for JavaScript XML.
+
+JSX allows us to write HTML in React.
+
+JSX makes it easier to write and add HTML in React.
+
+5>>In ReactJS, we have mainly two types of components.
+ They are
+ ////////////////////////////////////////////////////////////////////////
+a.Functional Components >> stateless component because 
+they do not hold or manage state
+
+In React, function components are a way to write 
+components that only contain a render method and 
+don't have their own state. They are simply JavaScript functions that may 
+or may not receive data as parameters.
+ We can create a function that takes 
+ props(properties) as input and returns
+  what should be rendered. 
+  A valid functional component can be shown in the below example.
+
+function WelcomeMessage(props) {  
+  return <h1>Welcome to the , {props.name}</h1>;  
+}  
+
+Note - When creating a React component, the component's name must start with an upper case letter.
+
+/////////////////////////////////////////////////////////////////////////////////
+b.Class Components
+
+Class components are more complex than functional
+ components. It requires you to extend from React.
+  Component and create a render function which 
+  returns a React element. You can pass data from
+   one class to other class components. You can create
+    a class by defining a class that extends Component 
+    and has a render function. Valid class component 
+    is shown in the below example.
+
+    class MyComponent extends React.Component {  
+  render() {  
+    return (  
+      <div>This is main component.</div>  
+    );  
+  }  
+}  
+
+
+///add a slider
+https://www.npmjs.com/package/react-slideshow-image
+
+
